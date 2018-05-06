@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+  proxy:
+    depends_on:
+      - app
+    build: "./proxy"
+    ports:
+      - "80:80"
+      - "443:443"
+    links:
+      - "app:app"
+  app:
+    build: "./node"
+    image: motojouya/facegram
+    ports:
+      - "8080:3000"
+    environment:
+      PORT: 3000
+      SESSION_SECRET: secret
+      INTERVAL: 10000
+      CONTRIBUTER_PASSWORD: password
+

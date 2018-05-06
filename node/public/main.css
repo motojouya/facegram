@@ -1,0 +1,149 @@
+
+html {
+  width: 100%;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴシック", "Hiragino Kaku Gothic", Osaka, arial, "Helvetica Neue", helvetica, "MS PGothic", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 12px;
+  line-height: 1.5em;
+  background-color: #000;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+body {
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+main {
+  width: 360px;
+  height: 360px;
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+input[type="password"] {
+  font-size: 2rem;
+  background-color: #fff;
+  /* border: none; */
+  padding: 0 0 0 0;
+}
+
+input[type="password"]:focus {
+  outline: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  text-decoration: none;
+  padding: 0 0 0 0;
+  /* padding: 2px 3px 2px 3px;
+  margin: 0 3px 0 3px;
+  line-height: 1.0rem;
+  font-size: 0.8rem;
+  background-color: #FFF;
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px%;
+  -o-border-radius: 5px%;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1)
+                 , 0 0 0 1px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1)
+                    , 0 0 0 1px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1)
+            , 0 0 0 1px rgba(0,0,0,0.1); */
+}
+
+img {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.fixeditem {
+  flex-grow: 0;
+  flex-shrink: 0;
+  position: relative;
+  display: inline-flex;
+}
+
+.variableitem {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  position: relative;
+  display: inline-flex;
+}
+
+.fcol {
+  flex-direction: column;
+  height: 100%;
+}
+
+.fcolre {
+  flex-direction: column-reverse;
+  height: 100%;
+}
+
+.buoyed {
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.3);
+  z-index: 2;
+  /* background-color: white; */
+}
+
+.invisible {
+  display: none;
+}
+
+.load_text_letter {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+.text_wrap {
+  background-color: #fff;
+  border-radius: 3px;
+  border: none;
+  -moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2)
+                 , 0 0 0 1px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2)
+                    , 0 0 0 1px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2)
+            , 0 0 0 1px rgba(0,0,0,0.1);
+  margin: 10px;
+  padding: 1px;
+}
+
